@@ -1,18 +1,40 @@
+/* TAG Selector */
+
 body {
-    background-color: #f0e3ca;
+  background-color: #f0e3ca;
 }
 
 hr {
-    border-style: dotted none none;
-    border-color: grey;
-    border-width: 7px;
-    width: 5%;
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 7px;
+  width: 5%;
 }
 
 h1 {
-    color: #ff6701;
+  color: #ff6701;
 }
 
 h3 {
-    color: #ff6701;
+  color: #ff6701;
+}
+
+/* Class Selector */
+
+.avatar {
+  height: 240px;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/* ID Selector use 
+
+You can only have 1 unique ID in a single html page
+
+*/
+
+#heading {
+  color: hotpink;
 }
