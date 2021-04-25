@@ -19,14 +19,20 @@ h3 {
   color: #ff6701;
 }
 
-/* Class Selector */
+/* Class Selector
+you can put multiple class in a tag
+*/
 
 .avatar {
   height: 240px;
 }
 
-.circular {
+.avatar:hover {
   border-radius: 100%;
+}
+
+.circular {
+    
 }
 
 /* ID Selector use 
